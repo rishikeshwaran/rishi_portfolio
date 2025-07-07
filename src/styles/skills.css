@@ -1,0 +1,37 @@
+.skills-section {
+  padding-top: 100px;
+  color: var(--text);
+  text-align: center;
+}
+
+.skill {
+  margin: 30px 0;
+}
+
+.icon {
+  height: 25px;
+  width: 25px;
+  margin-right: 10px;
+}
+
+.progress-bg {
+  background-color: #dee2e6;
+  height: 10px;
+  width: 100%;
+  border-radius: 20px;
+  overflow: hidden;
+  margin-top: 4px;
+}
+
+.progress-fill {
+  background-color: var(--primary);
+  height: 100%;
+  border-radius: 20px;
+  transition: width 0.6s ease-in-out;
+}
+
+.skill-img {
+  max-height: 450px;
+  width: 100%;
+  object-fit: contain;
+}

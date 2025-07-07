@@ -1,0 +1,33 @@
+.about-section {
+  padding-top: 100px;
+  color: var(--text);
+  text-align: center;
+}
+
+.about-img {
+  border-radius: 20px;
+  max-width: 100%;
+  height: auto;
+  transform: translateY(-20px);
+  margin-bottom: 20px;
+}
+
+p.fw-bold {
+  font-size: 1.15rem;
+  line-height: 1.8;
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+.card {
+  width: 200px;
+  background: var(--background);
+  color: var(--text);
+  transition: transform 0.3s ease;
+  border-color: #ccc;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgb(247, 11, 11);
+}

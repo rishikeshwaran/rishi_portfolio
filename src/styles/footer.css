@@ -1,0 +1,36 @@
+.footer {
+  background-color: #000;
+  color: #fff;
+  padding-top: 60px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+.footer h2,
+.footer h5,
+.footer p,
+.footer ul {
+  color: #fff;
+}
+
+.footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer li {
+  margin: 10px 0;
+}
+
+.footer .bi {
+  color: var(--primary);
+  font-size: 18px;
+  vertical-align: middle;
+  margin-right: 6px;
+}
+
+.footer hr {
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  margin: 20px auto;
+  width: 60%;
+}
